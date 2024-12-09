@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-04T19:15:37 IST" name="Suite" finished-at="2024-12-04T19:18:08 IST" duration-ms="151588">
+    <groups>
+    </groups>
+    <test started-at="2024-12-04T19:15:37 IST" name="Test" finished-at="2024-12-04T19:18:08 IST" duration-ms="151588">
+      <class name="Com.Runnersript.Fbrunnrscript">
+        <test-method is-config="true" signature="Openapp()[pri:0, instance:Com.Runnersript.Fbrunnrscript@48f278eb]" started-at="2024-12-04T19:15:37 IST" name="Openapp" finished-at="2024-12-04T19:15:42 IST" duration-ms="5164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openapp -->
+        <test-method signature="runmeth()[pri:0, instance:Com.Runnersript.Fbrunnrscript@48f278eb]" started-at="2024-12-04T19:15:42 IST" name="runmeth" finished-at="2024-12-04T19:15:47 IST" duration-ms="5408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runmeth -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:Com.Runnersript.Fbrunnrscript@48f278eb]" started-at="2024-12-04T19:15:47 IST" name="closeapp" finished-at="2024-12-04T19:18:08 IST" duration-ms="140964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- Com.Runnersript.Fbrunnrscript -->
+      <class name="Util.Screenshotss">
+        <test-method signature="pics(org.openqa.selenium.WebDriver)[pri:0, instance:Util.Screenshotss@10feca44]" started-at="2024-12-04T19:15:37 IST" name="pics" finished-at="2024-12-04T19:15:37 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [pics] with [interface org.openqa.selenium.WebDriver].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [pics] with [interface org.openqa.selenium.WebDriver].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pics -->
+      </class> <!-- Util.Screenshotss -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
